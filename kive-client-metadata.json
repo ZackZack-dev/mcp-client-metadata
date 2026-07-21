@@ -1,9 +1,7 @@
 {
   "redirect_uris": ["http://localhost:8989/oauth/callback"],
+  "token_endpoint_auth_method": "none",
   "grant_types": ["authorization_code", "refresh_token"],
   "response_types": ["code"],
-  "token_endpoint_auth_method": "none",
-  "client_name": "Hipland Operations (OpenClaw)",
-  "application_type": "native",
-  "code_challenge_methods_supported": ["S256"]
+  "client_name": "Hipland-OpenClaw"
 }
