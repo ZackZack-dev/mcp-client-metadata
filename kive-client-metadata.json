@@ -1,1 +1,19 @@
-{"redirect_uris":["http://localhost:8989/oauth/callback"],"token_endpoint_auth_method":"none"}
+{
+  "redirect_uris": [
+    "http://localhost:8989/oauth/callback"
+  ],
+  "token_endpoint_auth_method": "none",
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "client_name": "Hipland-OpenClaw",
+  "application_type": "native",
+  "client_uri": "https://github.com/ZackZack-dev/mcp-client-metadata",
+  "contacts": [
+    "zack@hipland.co"
+  ]
+}
