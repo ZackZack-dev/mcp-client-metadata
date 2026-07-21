@@ -1,7 +1,10 @@
 {
   "client_id": "https://zackzack-dev.github.io/mcp-client-metadata/kive-client-metadata.json",
   "client_name": "Hipland-OpenClaw",
-  "redirect_uris": ["http://localhost:8989/oauth/callback"],
+  "redirect_uris": [
+    "http://localhost:8989/oauth/callback",
+    "http://127.0.0.1:8989/oauth/callback"
+  ],
   "token_endpoint_auth_method": "none",
   "grant_types": ["authorization_code", "refresh_token"],
   "response_types": ["code"]
