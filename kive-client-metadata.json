@@ -1,5 +1,5 @@
 {
-  "client_id": "https://cdn.jsdelivr.net/gh/ZackZack-dev/mcp-client-metadata@6dbe614/kive-client-metadata.json",
+  "client_id": "https://zackzack-dev.github.io/mcp-client-metadata/kive-client-metadata.json",
   "client_name": "Hipland-OpenClaw",
   "redirect_uris": [
     "http://localhost:8989/oauth/callback",
